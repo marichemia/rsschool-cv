@@ -11,7 +11,9 @@
 **+995 051 020 983**
 
 ------------------
-### Skills
+### Education
+
+Bachelor's degree from Tbilisi State University (2017-2021)
 
 **_Programming Languages_**
 * **_Java_**
@@ -21,14 +23,11 @@ RS School, Epam Georgia, Web Development.
 * **_Web Design_**
 HTML & CSS
 
-**_Languages_**
-* Georgian Primary language
-* English C1 Advanced
-
 ------------------
-### Education
 
-Bachelor's degree from Tbilisi State University (2017-2021)
+**_Languages_**
+* Georgian - Primary language
+* English - C1 Advanced
 
 -----------------
 ### Projects
