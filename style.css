@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@300&family=Oswald:wght@300&family=Playfair+Display&family=Water+Brush&display=swap');
+/*-------------------- root -----------------*/
+:root{
+    --hue-1: 255;
+    --background-color:hsl(var(--hue-1), 100%, 90%);
+    --main-color: hsl(var(--hue-1), 100%, 60%);
+    /* main color yellow , main color darker maybe??? 10:27*/
+    --text-color:hsl(var(--hue-1), 20%, 60%);
+}
+
+/*------------------------- Styles ------------------*/
+body {
+    overflow-x:hidden;
+    background-color: var(--background-color); 
+    font-family: "Merriweather", sans-serif;
+}
+/* yellow color when mouse is moved*/
+::selection{
+    background-color: var(--main-color);
+    color: rgb(187, 255, 0);
+}
+/*removes underline on links*/
+a{
+    text-decoration:none;
+}
+/*removed bullets from ul*/
+ul{
+    list-style: none;
+}
+/* styling navigation links*/
+header{
+    position: relative;
+    bottom: 120px;
+    right: 45px;
+    
+}
+
+.container{
+    
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+nav.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*the navigation background color is here*/
+.links{
+    background-color: rgb(187, 255, 0);
+    flex:1;
+    display:flex;
+    justify-content: space-between;
+}
+
+.links ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+/*mariam chemia text styling*/
+.name {
+    position:relative;
+    top: 0px;
+    left: 30px;
+    margin-right: 1.5rem;
+    height: 80px;
+    line-height: 120px;
+    font-family: "Lobster";
+    letter-spacing: 1px;
+    color: blueviolet;
+    
+}
+
+h4{
+    position: relative;
+    left: 30px;
+    bottom: 80px;
+}
+
+/* navigation links styling*/
+.nav-link{
+    position: relative;
+    display: inline-block;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    color: blueviolet;
+    font-weight: 700;
+}
+
+
+/*changes color to black when mouse hovers over navigation links*/
+.nav-link:hover {
+    color:black;
+}
+
+/*--------------this is where header ends-------------*/
+.information{
+    padding: 120px 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.information .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: -20px;
+    max-height: 600px;
+    align-items: center;
+}
+
+/*about me heading styling*/
+.about-me{
+    color:blueviolet;
+    font-size: 40px;
+    font-family: "Oswald";
+    margin-bottom: -10px;
+    border-left: 4px solid rgb(187, 255, 0);
+    padding: 0.15rem 0.75rem;
+}
+
+/*about me paragraph styling*/
+.about-me-text{
+    color:black;
+    font-family: "Merriweather";
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.contact-me-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+    
+}
+
+.contact-me-buttons .button {
+    margin-right: 5px;
+    margin-top: -40px;
+}
+
+/* button text color, background*/
+.button{
+    color: rgb(187, 255, 0);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: blueviolet;
+}
+
+.button:hover {
+    background-color: rgb(80, 6, 150);
+}
+
+.image{
+    position: relative;
+    top: -21px;
+}
