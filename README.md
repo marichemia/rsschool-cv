@@ -1,2 +1,2 @@
 # rsschool-cv
-CV markdown
+[my cv](https://marichemia.github.io/rsschool-cv/)
